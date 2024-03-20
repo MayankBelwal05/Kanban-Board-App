@@ -32,7 +32,7 @@ const AddTask = () => {
           <option>in-progress</option>
           <option>done</option>
         </Select>
-        <Button onClick={() => handleAddTask()}>Add Task</Button>
+        <Button backgroundColor={"blue"} onClick={() => handleAddTask()}>Add Task</Button>
       </VStack>
     </Box>
   )

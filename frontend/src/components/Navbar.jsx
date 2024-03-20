@@ -20,7 +20,7 @@ const Navbar = () => {
     }
   return (
     <Box>
-        <HStack display={"flex"} justifyContent={"space-evenly"} padding={"20px"} backgroundColor={"grey"}>
+        <HStack display={"flex"} justifyContent={"center"} padding={"20px"} backgroundColor={"green"}>
             <Link to={"/"}>All Tasks</Link>
             <Link to={"/login"}>Login</Link>
             <Link to={"/signup"}>SignUp</Link>
